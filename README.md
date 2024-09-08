@@ -1,5 +1,13 @@
 # Enables Or Disables Monitor Mode On WIFI Interfaces
 
+quick install:
+```
+sudo git clone https://www.github.com/osiris-314/monitormode.git
+sudo chmod +x monitormode/monitormode.py
+sudo mv monitormode/monitormode.py /usr/local/bin/monitormode
+sudo rm -rf monitormode
+```
+#
 ```
 python monitormode.py <interface_name> -start
 ```
