@@ -1,11 +1,11 @@
 # Enables Or Disables Monitor Mode On The Default (wlan0) WIFI Interface
 
 ```
-python monitormode.py -start
+python monitormode.py <interface_name> -start
 ```
 
 ```
-python monitormode.py -stop
+python monitormode.py <interface_name> -stop
 ```
 ![moitormode_start](https://github.com/user-attachments/assets/f0b6274b-c8ad-41e5-9c65-e2c6458915fb)
 
